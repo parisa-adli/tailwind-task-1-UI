@@ -1,0 +1,16 @@
+{
+  "name": "task-shopping-cart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "cli": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
